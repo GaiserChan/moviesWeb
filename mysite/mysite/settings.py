@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'movies.apps.MoviesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -74,10 +75,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'movie',
-        'HOST': 'localhost',
+        'HOST': '119.29.11.49',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'a784553489'
+        'PASSWORD': 'Chunfeng10li!'
     }
 }
 
